@@ -4,15 +4,13 @@ import { getFirestore } from "firebase/firestore"; // For Firestore
 import { getDatabase } from "firebase/database"; // For Realtime Database
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDKS0MtupvttwK7lnYEuxTegjmQY9JLF8s",
-  authDomain: "fitzone-a3f25.firebaseapp.com",
-  databaseURL:
-    "https://fitzone-a3f25-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "fitzone-a3f25",
-  storageBucket: "fitzone-a3f25.firebasestorage.app",
-  messagingSenderId: "944600278679",
-  appId: "1:944600278679:web:3f18f8755cdcb33c8eabd2",
-  measurementId: "G-HVN1LYHFY7",
+  apiKey: "AIzaSyDj8zyQgo4GupvFftxkP5reiVfXko4KyBU",
+  authDomain: "fitzone-50f82.firebaseapp.com",
+  projectId: "fitzone-50f82",
+  storageBucket: "fitzone-50f82.firebasestorage.app",
+  messagingSenderId: "99142205557",
+  appId: "1:99142205557:web:34df1b1b206b38de0db83c",
+  measurementId: "G-HW3HFH9YGX"
 };
 
 const app = initializeApp(firebaseConfig);
